@@ -1,13 +1,49 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #64638f;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.card-body {
+  background-color: #cbc9ff;
+}
+.card-title {
+  font-size: 50px;
+  font-family: "Rubik Mono One", sans-serif;
+  color: #64638f;
+}
+.form-control {
+  margin-top: 10px;
+}
+.btn {
+  margin-bottom: 15px;
+  float: right;
+  background-color: #64638f;
+  border-color: #64638f;
+  color: #ebeafe;
+}
+
+.openSourceLink {
+  color: #cbc9ff;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #9088d4;
+}
+
+a:visited {
+  color: #9088d4;
 }

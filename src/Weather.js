@@ -1,5 +1,6 @@
 import React from "react";
 import "./Weather.css";
+import SearchEngine from "./SearchEngine";
 import Rainy from "./img/10d.svg";
 
 export default function Weather() {
@@ -23,18 +24,7 @@ export default function Weather() {
                 <div className="today">{weatherData.date}</div>
               </div>
               <div className="col-5 search">
-                <form>
-                  <div className="mb-3">
-                    <input
-                      type="text"
-                      className="form-control"
-                      placeholder="Where do you want to go?"
-                    />
-                  </div>
-                  <button type="submit" className="btn btn-sm search">
-                    How's the weather?
-                  </button>
-                </form>
+                <SearchEngine />
               </div>
 
               <div className="col-3 current-weather">
@@ -68,7 +58,7 @@ export default function Weather() {
       <div className="openSourceLink">
         {" "}
         <a
-          href="https://github.com/ShiraHella/purple-weather-app"
+          href="https://github.com/ShiraHella/weather-react"
           target="_blank"
           rel="noreferrer noopener"
         >

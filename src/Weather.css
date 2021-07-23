@@ -1,0 +1,71 @@
+.Weather .icons {
+  font-size: 20px;
+  color: #9088d4;
+}
+
+.Weather .current-weather {
+  margin-left: 20px;
+  font-size: 110px;
+  color: #64638f;
+}
+
+.Weather .weather-word {
+  color: #64638f;
+  font-family: "Roboto", sans-serif;
+  margin-top: 40px;
+}
+.Weather .weather-word:first-letter {
+  text-transform: capitalize;
+}
+
+.Weather .today {
+  margin-bottom: 20px;
+  margin-left: 5px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #64638f;
+}
+
+.Weather .card-subtitle {
+  font-size: 75px;
+  color: #64638f;
+}
+
+.Weather .day {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #64638f;
+}
+
+.Weather .temperature {
+  color: #64638f;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.Weather .degrees {
+  color: #64638f;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 40px;
+  margin-left: -90px;
+}
+
+.Weather .extra-info {
+  color: #64638f;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 100px;
+  margin-left: -10px;
+}
+
+.Weather .degrees .active {
+  color: #64638f;
+  cursor: default;
+}
+
+.Weather .degrees .active:hover {
+  text-decoration: none;
+}

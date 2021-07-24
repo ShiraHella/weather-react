@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Weather from './Weather';
 import reportWebVitals from './reportWebVitals';
 import "./index.css";
-
+import 'bootstrap/dist/css/bootstrap.css';
 ReactDOM.render(
   <React.StrictMode>
     <Weather />

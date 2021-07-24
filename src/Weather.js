@@ -1,7 +1,6 @@
 import React from "react";
 import "./Weather.css";
 import SearchEngine from "./SearchEngine";
-import Rainy from "./img/10d.svg";
 
 export default function Weather() {
   let weatherData = {

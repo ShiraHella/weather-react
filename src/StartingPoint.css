@@ -1,0 +1,23 @@
+body {
+  background-color: #64638f;
+}
+
+.StartingPoint {
+  max-width: 720px;
+  margin: 30px auto;
+}
+
+.StartingPoint footer {
+  font-size: 10px;
+  color: #cbc9ff;
+  margin: 10px 0;
+}
+
+.StartingPoint a:link {
+  text-decoration: none;
+  color: #9088d4;
+}
+
+.StartingPoint a:visited {
+  color: #9088d4;
+}

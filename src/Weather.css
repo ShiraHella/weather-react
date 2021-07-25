@@ -1,71 +1,56 @@
-.Weather .icons {
-  font-size: 20px;
-  color: #9088d4;
+.Weather {
+  border: 1px solid #64638f;
+  border-radius: 4px;
+  background-color: #cbc9ff;
+  padding: 20px;
 }
 
-.Weather .current-weather {
-  margin-left: 20px;
-  font-size: 110px;
+.Weather h1 {
+  font-size: 50px;
+  font-weight: bolder;
   color: #64638f;
+  margin: 20px 0 0 0;
 }
 
-.Weather .weather-word {
+.Weather .sub-titles {
   color: #64638f;
-  font-family: "Roboto", sans-serif;
-  margin-top: 40px;
-}
-.Weather .weather-word:first-letter {
-  text-transform: capitalize;
-}
-
-.Weather .today {
-  margin-bottom: 20px;
-  margin-left: 5px;
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
-  color: #64638f;
-}
-
-.Weather .card-subtitle {
-  font-size: 75px;
-  color: #64638f;
-}
-
-.Weather .day {
-  text-align: center;
-  margin-top: 10px;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  color: #64638f;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+.Weather li {
+  list-style: none;
+}
+
+.Weather .btn {
+  background-color: #64638f;
+  border-color: #64638f;
+  color: #ebeafe;
+}
+
+.Weather img {
+  margin-top: -60px;
 }
 
 .Weather .temperature {
+  font-size: 100px;
   color: #64638f;
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
+  margin-left: 10px;
 }
-.Weather .degrees {
+
+.Weather .unit {
   color: #64638f;
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  margin-top: 40px;
-  margin-left: -90px;
+  font-size: 24px;
+  position: relative;
+  top: -60px;
 }
 
 .Weather .extra-info {
   color: #64638f;
   font-size: 12px;
   font-family: "Roboto", sans-serif;
-  margin-top: 100px;
-  margin-left: -10px;
-}
-
-.Weather .degrees .active {
-  color: #64638f;
-  cursor: default;
-}
-
-.Weather .degrees .active:hover {
-  text-decoration: none;
+  margin-top: 80px;
 }

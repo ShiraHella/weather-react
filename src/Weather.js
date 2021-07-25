@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
-import FormatedDate from "./FormatDate";
+import FormatDate from "./FormatDate";
 
 export default function Weather(props) {
 

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
 
-export default function Weather() {
+export default function Weather(props) {
 
   const [weatherData, setWeatherData] = useState({ result: false});
 
@@ -35,7 +35,7 @@ export default function Weather() {
                         type="search"
                         placeholder="Enter a city"
                     />
-                    <input type="submit" value="Search" />
+                    <input className="btn btn-primary" type="submit" value="Search" />
                 </form>
               </div>
 
@@ -81,8 +81,7 @@ export default function Weather() {
     </div>
   );
   } else {
-    let city = "Yokohama";
-     let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=60dbe083627851751ca64015719aa9ec&units=metric`;
+     let url = `https://api.openweathermap.org/data/2.5/weather?q=${props.defaultCity}&appid=60dbe083627851751ca64015719aa9ec&units=metric`;
         axios.get(url).then(handleResponse);
 
         return "Loading...";

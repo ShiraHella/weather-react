@@ -6,7 +6,7 @@ import "./index.css";
 import 'bootstrap/dist/css/bootstrap.css';
 ReactDOM.render(
   <React.StrictMode>
-    <Weather />
+    <Weather defaultCity="Yokohama"/>
   </React.StrictMode>,
   document.getElementById('root')
 );

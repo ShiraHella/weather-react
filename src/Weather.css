@@ -31,8 +31,8 @@
   color: #ebeafe;
 }
 
-.Weather img {
-  margin-top: -60px;
+.Weather canvas {
+  margin-top: 10px;
 }
 
 .Weather .temperature {

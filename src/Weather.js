@@ -17,7 +17,7 @@ const [city, setCity] = useState (props.defaultCity);
       description: response.data.weather[0].description,
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
-    icon: `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`})
+    icon: response.data.weather[0].icon})
 
   }
 
@@ -47,7 +47,7 @@ let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=60dbe
                         placeholder="Enter a city"
                         className="form-control"
                         autoFocus="on"
-                        onChange={handleCityChange}
+                        
                     />
               </div>
                     <div className="col-3">

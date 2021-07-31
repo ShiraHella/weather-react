@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
 import WeatherStats from "./WeatherStats";
+import WeatherForecast from "./WeatherForecast";
 
 
 export default function Weather(props) {
@@ -55,8 +56,8 @@ let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=60dbe
                     </div>
             </div>
       </form>
-           <WeatherStats data={weatherData}/>         
-                
+           <WeatherStats data={weatherData} /> 
+           <WeatherForecast />             
     </div>
   );
   } else {

@@ -18,7 +18,8 @@ const [city, setCity] = useState (props.defaultCity);
       description: response.data.weather[0].description,
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
-    icon: response.data.weather[0].icon})
+    icon: response.data.weather[0].icon,
+    coord: response.data.coord})
 
   }
 
@@ -57,7 +58,7 @@ let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=60dbe
             </div>
       </form>
            <WeatherStats data={weatherData} /> 
-           <WeatherForecast />             
+           <WeatherForecast coord={weatherData.coord}/>             
     </div>
   );
   } else {

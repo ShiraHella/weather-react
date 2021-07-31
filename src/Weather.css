@@ -38,12 +38,12 @@
 .Weather .temperature {
   font-size: 100px;
   color: #64638f;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .Weather .unit {
   color: #64638f;
-  font-size: 24px;
+  font-size: 18px;
   position: relative;
   top: -60px;
 }

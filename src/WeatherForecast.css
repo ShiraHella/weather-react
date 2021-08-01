@@ -6,3 +6,11 @@
   opacity: 0.6;
   margin-left: 5px;
 }
+
+.WeatherForecastDay {
+  color: #64638f;
+}
+
+.WeatherForecastDay .forecast-temp-max {
+  font-weight: bold;
+}
